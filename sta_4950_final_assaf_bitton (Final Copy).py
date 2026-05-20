@@ -908,6 +908,6 @@ print(tabbox)
 tabbox.to_csv("model_comparison_error_rates.csv")
 files.download("model_comparison_error_rates.csv")
 
-
+"""
 Random Forest had the lowest validation error at 0.4206, slightly beating the validation naive baseline of 0.4339. Elastic-net logistic regression and XGBoost tied on validation error at 0.4259, while the neural network performed worse on validation. On the test set, however, none of the four models clearly beat the naive baseline of 0.4433; the neural network came closest with a test error of 0.4472. XGBoost had the lowest training error but the worst test error, which suggests overfitting. Overall, the lagged BTC and ETH returns provide only weak predictive signal for next-day BTC versus ETH outperformance.
 """
